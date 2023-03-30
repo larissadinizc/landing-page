@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo da página */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo do header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ff69b4;
+  }
+  
+  .logo img {
+    height: 100px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+    list-style: none;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #110f0f;
+  }
+  
+  .social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social a {
+    margin-left: 10px;
+  }
+  
+  .social img {
+    height: 30px;
+  }
+  
+  /* Estilo da seção hero */
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    color: #d88fc9;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #ff69b4;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 2px 2px #000;
+  }
+  
+  .button:hover {
+    background-color: #ff69b4;
+    color: #fff;
+  }
+  
+  /* Estilo da seção services */
+  .services {
+    padding: 50px;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .services li {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+  }
+  
+  .services li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .services li h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .services li p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo da seção testimonial */
+  .testimonial {
+    padding: 50px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .testimonial blockquote {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial cite {
+    font-size: 18px;
+    font-style: normal;
+  }
+  
+  /* Estilo do footer */
+  footer {
+    background-color: #ff69b4;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
